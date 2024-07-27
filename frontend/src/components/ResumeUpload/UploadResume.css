@@ -1,0 +1,59 @@
+/* UploadResume.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;  /* Adjusted header font size */
+}
+
+.resume-upload-container {
+  max-width: 500px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.resume-upload-container h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.resume-upload-container input[type="file"] {
+  margin-bottom: 1.5rem;  /* Increased margin between input and button */
+  display: block;
+  margin: 0 auto;
+}
+
+.resume-upload-container button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-upload-container button:hover {
+  background-color: #45a049;
+}
+
+.resume-upload-container p {
+  margin-top: 1.5rem;  /* Adjusted message margin */
+  color: #333;
+  font-size: 1rem;
+}
