@@ -24,11 +24,13 @@ Make sure you have these installed:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
 
 ### Navigate to the backend folder:
     Here main file is outside if you have in some folder then
 ```bash
 cd folderName
+```
 
 ### Install dependencies and run Flask:
 ```bash
@@ -36,16 +38,16 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 flask run
-
+```
 ### Navigate to the frontend folder:
 ```bash
 cd frontend
-
+```
 ### Install dependencies and run React:
 ```bash
 npm install
 npm start
-
+```
 The app should now be running at http://localhost:3000 (frontend) and http://127.0.0.1:5000 (backend).
 
 
